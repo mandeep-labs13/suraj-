@@ -70,6 +70,17 @@ document.querySelectorAll('.showreel').forEach(reel=>{
   });
 })();
 
+// Mobile nav
+(function(){
+  const toggle = document.getElementById('navToggle');
+  const panel = document.getElementById('mobileNav');
+  const close = document.getElementById('mobileNavClose');
+  if(!toggle || !panel) return;
+  toggle.addEventListener('click', ()=> panel.classList.add('open'));
+  if(close) close.addEventListener('click', ()=> panel.classList.remove('open'));
+  panel.querySelectorAll('a').forEach(a=> a.addEventListener('click', ()=> panel.classList.remove('open')));
+})();
+
 // Theme toggle (persisted)
 const themeToggle = document.getElementById('themeToggle');
 if(themeToggle){
