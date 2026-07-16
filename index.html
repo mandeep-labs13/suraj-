@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <script>try{if(localStorage.getItem('theme')==='light'){document.documentElement.classList.add('light');}}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Suraj Event &amp; Photography — Wedding &amp; Cinematic Studio, Kota</title>
-<meta name="description" content="Suraj Event & Photography — wedding, cinematic, drone and event photography in Borkhera, Kota. 5.0★ across 24 reviews, 600+ clients served. Currently booking.">
+<title>Suraj Event &amp; Photography â€” Wedding &amp; Cinematic Studio, Kota</title>
+<meta name="description" content="Suraj Event & Photography â€” wedding, cinematic, drone and event photography in Borkhera, Kota. 5.0â˜… across 24 reviews, 600+ clients served. Currently booking.">
 <meta name="theme-color" content="#0B0C0E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 </head>
 <body>
 
-<header>
+<header class="header-on-hero">
   <div class="wrap nav-row">
     <a href="index.html" class="logo">SURAJ<small>Event &amp; Photography</small></a>
     <nav class="nav-links">
@@ -24,30 +24,41 @@
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">â˜°</button>
     <div class="nav-cta">
-      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode" aria-pressed="false">◐</button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark mode" aria-pressed="false">â—</button>
       <a href="tel:+917014649182" class="btn btn-solid">Call Now</a>
     </div>
   </div>
 </header>
 
+<div class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" id="mobileNavClose" aria-label="Close menu">âœ•</button>
+  <a href="index.html" class="active">Home</a>
+  <a href="services.html">Services</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="tel:+917014649182" class="btn btn-solid">Call Â· 70146 49182</a>
+</div>
+
 <section class="hero">
   <div class="letterbox-bar"></div>
   <div class="hero-media">
-    <video id="heroVideo" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1600&auto=format&fit=crop">
+    <video id="heroVideo" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1600&auto=format&fit=crop">
       <source src="https://assets.mixkit.co/videos/5217/5217-720.mp4" type="video/mp4">
     </video>
-    <button class="sound-toggle" id="soundToggle" aria-label="Toggle video sound">🔇</button>
+    <button class="sound-toggle" id="soundToggle" aria-label="Toggle video sound">ðŸ”‡</button>
     <div class="hero-overlay wrap">
-      <div class="rec-badge reveal"><span class="rec-dot"></span>Currently Booking 2026–27 Weddings</div>
+      <div class="rec-badge reveal"><span class="rec-dot"></span>Currently Booking 2026â€“27 Weddings</div>
       <h1 class="reveal">We shoot the day<br>so it lasts forever.</h1>
-      <p class="lede reveal">Wedding, cinematic, drone and event photography out of Borkhera, Kota — trusted by 600+ families and counting.</p>
+      <p class="lede reveal">Wedding, cinematic, drone and event photography out of Borkhera, Kota â€” trusted by 600+ families and counting.</p>
       <div class="hero-actions reveal">
         <a href="tel:+917014649182" class="btn btn-solid">Call to Book</a>
         <a href="portfolio.html" class="btn btn-outline">View Our Work</a>
       </div>
       <div class="hero-stats reveal">
-        <div><b>5.0★</b><span>24 Reviews</span></div>
+        <div><b>5.0â˜…</b><span>24 Reviews</span></div>
         <div><b>600+</b><span>Happy Clients</span></div>
         <div><b>27+</b><span>Services</span></div>
       </div>
@@ -59,8 +70,8 @@
 <div class="filmstrip"></div>
 <div class="ticker-strip">
   <div class="ticker-track">
-    <span>Wedding &amp; Engagement</span>· Cinematic Shoots ·<span>Drone &amp; Aerial</span>· Candid Photography ·<span>Pre-Wedding Shoots</span>· LED Wall Setup ·<span>Baby &amp; Maternity</span>· Event Coverage ·<span>Reel Shoots</span>·
-    <span>Wedding &amp; Engagement</span>· Cinematic Shoots ·<span>Drone &amp; Aerial</span>· Candid Photography ·<span>Pre-Wedding Shoots</span>· LED Wall Setup ·<span>Baby &amp; Maternity</span>· Event Coverage ·<span>Reel Shoots</span>·
+    <span>Wedding &amp; Engagement</span>Â· Cinematic Shoots Â·<span>Drone &amp; Aerial</span>Â· Candid Photography Â·<span>Pre-Wedding Shoots</span>Â· LED Wall Setup Â·<span>Baby &amp; Maternity</span>Â· Event Coverage Â·<span>Reel Shoots</span>Â·
+    <span>Wedding &amp; Engagement</span>Â· Cinematic Shoots Â·<span>Drone &amp; Aerial</span>Â· Candid Photography Â·<span>Pre-Wedding Shoots</span>Â· LED Wall Setup Â·<span>Baby &amp; Maternity</span>Â· Event Coverage Â·<span>Reel Shoots</span>Â·
   </div>
 </div>
 <div class="filmstrip"></div>
@@ -70,10 +81,10 @@
     <div class="section-head reveal">
       <div class="eyebrow">What We Shoot</div>
       <h2>27 ways to remember the day.</h2>
-      <p>Weddings, cinematic films, drone work, portraits, events and full post-production — one studio, start to finish.</p>
+      <p>Weddings, cinematic films, drone work, portraits, events and full post-production â€” one studio, start to finish.</p>
     </div>
     <div class="hero-actions reveal">
-      <a href="services.html" class="btn btn-outline">See All Services →</a>
+      <a href="services.html" class="btn btn-outline">See All Services â†’</a>
     </div>
   </div>
 </section>
@@ -85,13 +96,44 @@
       <h2>A few frames from the archive.</h2>
     </div>
     <div class="gallery-grid">
-      <div class="g-item g-tall reveal" data-cap="Wedding · Full Look"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=800&auto=format&fit=crop" alt="Wedding couple portrait" loading="lazy"></div>
+      <div class="g-item g-tall reveal" data-cap="Wedding Â· Full Look"><img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=800&auto=format&fit=crop" alt="Wedding couple portrait" loading="lazy"></div>
       <div class="g-item reveal" data-cap="Candid Moments"><img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=800&auto=format&fit=crop" alt="Candid wedding moment" loading="lazy"></div>
       <div class="g-item reveal" data-cap="Pre-Wedding"><img src="https://images.unsplash.com/photo-1509610973-b7a19c50a2ec?q=80&w=800&auto=format&fit=crop" alt="Pre-wedding shoot" loading="lazy"></div>
       <div class="g-item reveal" data-cap="Cinematic Detail"><img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?q=80&w=800&auto=format&fit=crop" alt="Cinematic wedding detail" loading="lazy"></div>
     </div>
     <div class="hero-actions reveal" style="margin-top:32px;">
-      <a href="portfolio.html" class="btn btn-outline">View Full Portfolio →</a>
+      <a href="portfolio.html" class="btn btn-outline">View Full Portfolio â†’</a>
+    </div>
+  </div>
+</section>
+
+<section id="about-teaser">
+  <div class="wrap about-grid">
+    <div class="about-media reveal">
+      <img src="https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=900&auto=format&fit=crop" alt="Photographer at work" loading="lazy">
+    </div>
+    <div class="about-body reveal">
+      <div class="eyebrow">Behind The Camera</div>
+      <p>Six hundred families in, and the job hasn't changed.</p>
+      <p>Be there for the moment that actually matters, and don't miss it. From wedding day chaos to a quiet newborn shoot, Suraj Event &amp; Photography covers the full range â€” stills, cinematic video, drone, and everything an event needs beyond just the camera.</p>
+      <div class="hero-actions">
+        <a href="about.html" class="btn btn-outline">More About Us â†’</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--panel);">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Why Book With Us</div>
+      <h2>What 600+ clients already know.</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step reveal"><b>01</b><h4>One Studio, Full Coverage</h4><p>Stills, cinematic video, drone and LED production â€” no juggling separate vendors.</p></div>
+      <div class="process-step reveal"><b>02</b><h4>Open Every Day</h4><p>Weddings don't stick to office hours, so bookings and calls are open 24/7.</p></div>
+      <div class="process-step reveal"><b>03</b><h4>5.0â˜… Track Record</h4><p>24 reviews, zero below five stars â€” consistency clients actually notice.</p></div>
+      <div class="process-step reveal"><b>04</b><h4>Full Post-Production</h4><p>Retouching, albums, and printing handled in-house, start to finish.</p></div>
     </div>
   </div>
 </section>
@@ -105,14 +147,14 @@
     <div class="rating-row reveal">
       <div class="rating-num">5.0</div>
       <div>
-        <div class="stars">★★★★★</div>
+        <div class="stars">â˜…â˜…â˜…â˜…â˜…</div>
         <div class="rating-meta">24 Google Reviews</div>
       </div>
     </div>
     <div class="notes-grid">
-      <div class="note reveal"><span class="stars">★★★★★</span><p>"One of the best event planners in the business — and just as good a person to work with."</p><footer>Sunny M.</footer></div>
-      <div class="note reveal"><span class="stars">★★★★★</span><p>"The cinematic videos in particular are fantastic — good-natured and easy to work with throughout."</p><footer>Vishesh C.</footer></div>
-      <div class="note reveal"><span class="stars">★★★★★</span><p>"Photos and video both came out great, and the whole experience felt genuinely well looked after."</p><footer>Akash T.</footer></div>
+      <div class="note reveal"><span class="stars">â˜…â˜…â˜…â˜…â˜…</span><p>"One of the best event planners in the business â€” and just as good a person to work with."</p><footer>Sunny M.</footer></div>
+      <div class="note reveal"><span class="stars">â˜…â˜…â˜…â˜…â˜…</span><p>"The cinematic videos in particular are fantastic â€” good-natured and easy to work with throughout."</p><footer>Vishesh C.</footer></div>
+      <div class="note reveal"><span class="stars">â˜…â˜…â˜…â˜…â˜…</span><p>"Photos and video both came out great, and the whole experience felt genuinely well looked after."</p><footer>Akash T.</footer></div>
     </div>
   </div>
 </section>
@@ -130,12 +172,43 @@
 
 <footer>
   <div class="wrap">
-    <div class="foot-row">
-      <span>Suraj Event &amp; Photography — Borkhera, Kota</span>
-      <div class="foot-links"><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
-      <span>70146 49182</span>
+    <div class="foot-grid">
+      <div class="foot-brand reveal">
+        <div class="logo">SURAJ<small>Event &amp; Photography</small></div>
+        <p>Wedding, cinematic, drone and event photography out of Borkhera, Kota â€” trusted by 600+ families since we started.</p>
+        <div class="foot-social">
+          <a href="tel:+917014649182" aria-label="Call">â˜Ž</a>
+          <a href="https://www.google.com/maps/search/Suraj+Event+%26+Photography+Canal+Road+Pratap+Nagar+Borkhera+Kota" target="_blank" rel="noopener" aria-label="Directions">ðŸ“</a>
+        </div>
+      </div>
+      <div class="foot-col reveal">
+        <h5>Explore</h5>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="foot-col reveal">
+        <h5>Popular Services</h5>
+        <a href="services.html">Wedding &amp; Engagement</a>
+        <a href="services.html">Cinematic Shoot</a>
+        <a href="services.html">Drone &amp; Aerial</a>
+        <a href="services.html">Baby &amp; Maternity</a>
+        <a href="services.html">Event Coverage</a>
+      </div>
+      <div class="foot-col reveal">
+        <h5>Get In Touch</h5>
+        <a href="tel:+917014649182">70146 49182</a>
+        <p>3rd, Canal Road, Pratap Nagar,<br>Borkhera, Kota, Rajasthan 324002</p>
+        <div class="foot-badge"><span class="rec-dot" style="width:6px;height:6px;"></span>Open 24 Hours, Daily</div>
+      </div>
     </div>
-    <p class="disclaimer">Photography shown is placeholder stock imagery pending the real portfolio archive. Reviews quoted are real, sourced from the business's public Google listing. Hero video is licensed stock footage (Mixkit), used as a placeholder until real wedding footage is available.</p>
+    <div class="foot-bottom">
+      <span>Â© 2026 Suraj Event &amp; Photography. All rights reserved.</span>
+      <span>5.0â˜… Â· 24 Google Reviews</span>
+    </div>
+    <p class="disclaimer">Photography shown is placeholder stock imagery pending the real portfolio archive. Reviews quoted are real, sourced from the business's public Google listing.</p>
   </div>
 </footer>
 
